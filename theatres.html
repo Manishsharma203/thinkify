@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Theatres Booking</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href='style.css'/>
+    
+</head>
+
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand text-white" href="Homepage.html">Movie Booking</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active mr-5">
+              <a class="nav-link text-white" href="Homepage.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mr-5">
+              <a class="nav-link text-white" href="Bookings.html">Bookings</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Dashboard -->
+    <div class="container text-center m-5" id='container'>
+        <div class="h2 my-3 text-success" id='movieName'></div>
+        <div class="h5 my-2" id='show'></div>
+        <select class="custom-select col-4" id='languageDropdown'>
+            <option value="">select language</option>
+        </select>
+    </div>
+    <div class="container m-5" id='seatContainer'>
+    </div>
+</body>
+
+<script type="text/javascript" src="theatres.js"></script>
+
+</html>
