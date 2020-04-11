@@ -1,7 +1,7 @@
 ## Movie Booking App - Manish Sharma
 
-## Demo Video
-[Click Here](https://drive.google.com/open?id=1nIdL1RifK5q0_gBktBIKhkuQUo-R16oe)
+### Homepage
+![Home Page](https://github.com/Manishsharma203/thinkify/blob/master/Homepage.png)
 
 ## Tech Stack
 * HTML
